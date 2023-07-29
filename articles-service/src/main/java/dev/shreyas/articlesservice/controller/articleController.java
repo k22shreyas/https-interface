@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/articles")
-public class articlecontroller {
+public class articleController {
     private final ArrayList<Article> articles = new ArrayList<>();
     
     @GetMapping()
