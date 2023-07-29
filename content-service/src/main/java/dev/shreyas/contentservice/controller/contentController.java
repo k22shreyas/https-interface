@@ -3,14 +3,12 @@ package dev.shreyas.contentservice.controller;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import dev.shreyas.contentservice.model.Article;
 import dev.shreyas.contentservice.service.ArticleClient;
 
-@ComponentScan({"dev.shreyas.contentservice.service.ArticleClient"})
 @RestController
 @RequestMapping("/api/content")
 public class contentController {
